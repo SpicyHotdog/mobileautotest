@@ -1,0 +1,11 @@
+<suite name="TestSuite Demo">
+    <test name="TestSuite Demo Test">
+        <classes>
+            <class name="org.example.TestCase1"></class>
+            <class name="org.example.ORTTPayment"></class>
+        </classes>
+        <listeners>
+            <listener class-name="org.example.Listener"/>
+        </listeners>
+    </test>
+</suite>
